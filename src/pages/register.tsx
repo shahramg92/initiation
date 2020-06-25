@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 import { Button, Label, Input } from 'reactstrap';
 
+/**
+ * 
+ * @param props 
+ *  submitUser(): <promise> // submit user info for auth
+ *  authError: Boolean // auth failure status
+ * 
+ */
 
 export default function SignUpPage(props: any) {
     const MAIN_BG_STYLE = {

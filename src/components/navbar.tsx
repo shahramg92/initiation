@@ -6,14 +6,13 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
+  NavLink,  
   NavbarText
 } from 'reactstrap';
-
+/**
+ * nav bar component
+ * @param props undefined
+ */
 const NavBarComponent = (props: any) => {
   const [isOpen, setIsOpen] = useState(false);
 

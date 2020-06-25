@@ -1,12 +1,17 @@
 import React from 'react';
 import {
-  Card, CardText, CardBody,
+  Card, 
+  CardBody,
   CardTitle
 } from 'reactstrap';
 
+/**
+ * Card Component
+ * @param props doman array
+ */
+
 const CardComponent = (props:any) => {
-  return (
-    <div>
+  return (    
       <Card>
         <CardBody>
           <CardTitle style={{textAlign: "center"}}>Domains</CardTitle>
@@ -15,7 +20,6 @@ const CardComponent = (props:any) => {
           </ul>}
         </CardBody>
       </Card>
-    </div>
   );
 };
 
